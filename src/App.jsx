@@ -26,8 +26,8 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
       <header className="max-w-4xl mx-auto p-6 flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Yugan — Data Scientist</h1>
-          <p className="text-sm text-gray-600">M.S. Management Data Analytics (May 2025) • Work authorization until Jul 2028</p>
+          <h1 className="text-2xl font-bold">Yugandhar Ailuri — Data Engineer</h1>
+          <p className="text-sm text-gray-600">M.S. Management Data Analytics (May 2025) </p>
         </div>
         <nav className="flex gap-3 items-center">
           <a href="#projects" className="text-sm hover:underline">Projects</a>
@@ -43,11 +43,14 @@ export default function Portfolio() {
         {/* Hero */}
         <section className="grid md:grid-cols-2 gap-8 items-center py-10">
           <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">Hi — I'm Yugan.</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">Hi - I'm Yugan.</h2>
             <p className="mt-4 text-gray-700">
-              Data Scientist and recent M.S. (Management Data Analytics). I build reproducible data pipelines, clean and model data, and deliver
-              dashboards and machine learning prototypes that drive business decisions. Experienced with data engineering for gaming,
-              fintech and restaurant operations (ZBD, CrunchTime).
+              a data enthusiast and certified AWS engineer who loves turning messy data into meaningful stories. 
+              I enjoy building scalable data pipelines, dashboards, and models that make complex information simple 
+              and actionable. With hands-on experience in Python, SQL, Power BI, and cloud tools, I focus on 
+              creating data solutions that truly drive impact. Whether it’s optimizing workflows, visualizing insights,
+              or automating reports, I’m always excited to learn, experiment, and solve problems with data. This 
+              portfolio showcases my journey of transforming raw data into insights that power smarter decisions.
             </p>
 
             <div className="mt-6 flex gap-3">
@@ -56,8 +59,8 @@ export default function Portfolio() {
             </div>
 
             <div className="mt-6 flex items-center gap-4 text-sm text-gray-600">
-              <a href="#" aria-label="GitHub" className="inline-flex items-center gap-2"><Github size={16} /> github</a>
-              <a href="#" aria-label="LinkedIn" className="inline-flex items-center gap-2"><Linkedin size={16} /> linkedin</a>
+              <a href="https://github.com/Yugan03/" aria-label="GitHub" className="inline-flex items-center gap-2"><Github size={16} /> github</a>
+              <a href="https://www.linkedin.com/in/yugandhar-ailuri/" aria-label="LinkedIn" className="inline-flex items-center gap-2"><Linkedin size={16} /> linkedin</a>
             </div>
           </motion.div>
 
@@ -129,7 +132,7 @@ export default function Portfolio() {
             <button className="sm:col-span-2 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-gray-900 text-white">Send <Mail size={16} /></button>
           </form>
 
-          <div className="mt-6 text-sm text-gray-600">Or email me directly at <a href="mailto:your.email@example.com" className="underline">your.email@example.com</a></div>
+          <div className="mt-6 text-sm text-gray-600">Or email me directly at <a href="mailto:yugandharanalytics@gmail.com" className="underline">your.email@example.com</a></div>
         </section>
 
         {/* Footer */}
